@@ -11,9 +11,7 @@ import com.sode.hrworker.entities.Worker;
 import com.sode.hrworker.repository.WorkerRepository;
 
 @Configuration
-@Profile("DataLoader")
 public class DataLoad implements CommandLineRunner{
-	
 	
 	@Autowired
 	private WorkerRepository workerRepository;
